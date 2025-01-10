@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    width: auto;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+nav h2{
+    font-size: 30px;
+}
+nav button{
+    width: 116px;
+    height: 52px;
+    text-align: center;
+    color: #006A50;
+    background: none;
+    border-color: #006A50;
+    font-weight: bold;
+    border-radius: 8px;
+}
+nav button:hover{
+    cursor: pointer;
+    background-color: #006A50;
+    color: aliceblue;
+}
+header{
+    width: auto;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    
+}
+header div{
+    gap: 60px;
+}
+.banner h1{
+    color: rgb(14,14,14,50%);
+}
+.banner p{
+    font-size: 45px;
+    font-weight: 1000;
+}
+.banner button{
+    width: 270px;
+    height: 56px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #006A50;
+    color: #C6E4D6;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+.banner button:hover{
+    background-color: aqua;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+}
+.title-txt{
+    margin-top: 80px;
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+.pillars{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.pillars img{
+    width: 64px;
+    height: 64px;
+}
+.pillar-content{
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 3px black;
+}
+.pillar-content h2{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: rgb(14, 14, 14, 80%);
+}
+.visions{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.visions img{
+    width: 62px;
+    height: 62px;
+}
+.vision-content{
+    width: 415px;
+    height: 325px;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 3px black;
+}
+.vision-content p{
+    margin-bottom: 24px;
+}
+.vision-content button{
+    width: 122px;
+    height: 41px;
+    text-align: center;
+    border-radius: 8px;
+    left: 100%;
+    bottom: 100%; 
+}
+
+#tn-1{
+    background-color: rgb(84, 144, 245, 20%);
+}
+#tn-1 button{
+    background-color: #5490F5;
+    color: #eafaf2;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+#tn-2{
+    background-color: rgb(198, 228, 214);
+}
+#tn-2 button{
+    background-color: #006A50;
+    color: #eafaf2;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+#tn-3{
+    background-color: #F7EBCF;
+}
+#tn-3 button{
+    background-color: #FFC239;
+    color: #eafaf2;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
