@@ -36,7 +36,7 @@ nav button:hover{
 }
 header{
     width: auto;
-    height: 370px;
+    max-height: 560px;
     display: flex;
     justify-content: space-between;
     background-color: #C6E4D6;
@@ -177,4 +177,41 @@ header div{
     background-repeat: no-repeat;
     background-attachment: relative;
     background-position: top left;
+}
+.your-choice{
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.your-choice table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    height: 92px;
+    padding: 24px;
+}
+th{
+    background-color: #C6E4D6;
+}
+td{
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lefted{
+    text-align: left;
+    padding: 24px ; 
+}
+.righted{
+    text-align: center;
+}
+.righted select{
+    color: #0e0e0e;
+    font-size: medium;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    border: 1px solid black;
 }
