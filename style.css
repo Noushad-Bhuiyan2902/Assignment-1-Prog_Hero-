@@ -5,6 +5,7 @@
 body{
     margin: 0 160px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #efeff7ef;
 }
 nav{
     width: auto;
@@ -72,7 +73,7 @@ header div{
 }
 .title-txt{
     margin-top: 80px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     font-size: 40px;
 }
 .pillars{
@@ -99,6 +100,7 @@ header div{
     color: rgb(14, 14, 14, 80%);
 }
 .visions{
+    margin: 32px 0; 
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -108,8 +110,8 @@ header div{
     height: 62px;
 }
 .vision-content{
-    width: 415px;
-    height: 325px;
+    max-width: 415px;
+    max-height: 325px;
     padding: 32px;
     border-radius: 16px;
     box-shadow: 1px 1px 3px black;
@@ -136,6 +138,9 @@ header div{
     font-weight: bold;
     border: none;
 }
+#tn-1 button:hover{
+    background-color: #006A50;
+}
 #tn-2{
     background-color: rgb(198, 228, 214);
 }
@@ -146,6 +151,9 @@ header div{
     font-weight: bold;
     border: none;
 }
+#tn-2 button:hover{
+    background-color: #5490F5;
+}
 #tn-3{
     background-color: #F7EBCF;
 }
@@ -155,4 +163,18 @@ header div{
     font-size: medium;
     font-weight: bold;
     border: none;
+}
+#tn-3 button:hover{
+    background-color: #2a05ad;
+}
+.advisor-speech{
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 24px 24px;
+}
+#advisor{
+    background: url(B11A1--assignment-1-main/assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: top left;
 }
