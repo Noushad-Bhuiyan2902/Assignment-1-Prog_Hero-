@@ -303,4 +303,32 @@ td{
 #Donate:hover{
     background-color: #5490F5;
 }
+.subscriber{
+    margin: 80px auto;
+    padding: 80px 100px;
+    border-radius: 24px;
+    justify-content: center;
+    background-color: #C6E4D6;
+    text-align: center;
+}
+
+.subscriber div{
+    display: flex;
+    justify-content: center;
+    margin: 24px auto;
+}
+#un1{
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px;
+}
+#un2{
+    border: none;
+    width: 150px;
+    height: 55px;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
 
